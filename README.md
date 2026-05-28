@@ -73,7 +73,6 @@ All content lives in **`src/data.js`** — projects, publications, skills, exper
 ## 👩‍💻 About
 
 **Deepali Sharma, Ph.D.**
-- 📍 Setauket, NY
 - 🔬 Ph.D. Experimental Nuclear Physics — Weizmann Institute of Science
 - 💼 [LinkedIn](https://www.linkedin.com/in/deepali-sharma-a83a126/)
 - 📚 [Google Scholar](https://scholar.google.com/citations?user=IHTt5T0AAAAJ&hl=en)
