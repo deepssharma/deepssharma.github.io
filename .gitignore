@@ -28,3 +28,5 @@ portfoli*
 *.js
 README*
 *.json
+./src/#*
+./src/*~
