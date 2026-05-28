@@ -7,7 +7,7 @@ export const STATS = [
   { value: 'PB', label: 'Scale Data Analyzed' },
 ];
 
-export const ML_PROJECTS = [
+export const PROJECTS = [
   {
     tag: 'Time Series · Finance',
     title: 'Stock Price & Portfolio Prediction',
@@ -36,17 +36,6 @@ export const ML_PROJECTS = [
     linkLabel: 'GitHub',
   },
   {
-    tag: 'Automation · Finance · Python',
-    title: 'PTA Treasurer AI',
-    description:
-      'Automated financial reporting pipeline using Python, Playwright, and Docker, from raw bank statements to boardroom-ready Excel reports in seconds, designed to scale into a SaaS product for nonprofits nationwide.',
-    stack: ['Python', 'FastAPI', 'Playwright', 'Docker', 'Jupyter'],
-    link: 'https://github.com/deepssharma/pta_treasurer',
-    linkLabel: 'GitHub',
-  },
-];
-export const RESEARCH_PROJECTS = [
-  {
     tag: 'Physics · Automation · Monitoring',
     title: 'Solar Activity Monitoring System',
     description:
@@ -63,6 +52,15 @@ export const RESEARCH_PROJECTS = [
     stack: ['C++', 'Bash', 'Slurm', 'ROOT', 'Perl'],
     link: null,
     linkLabel: null,
+  },
+  {
+    tag: 'Automation · Finance · Python',
+    title: 'PTA Treasurer Report Generator',
+    description:
+      'Python tool that automatically generates monthly treasurer reports for a school PTA from three input files (QuickBooks P&L, Chase bank statement PDF, Givebacks CSV). Outputs a formatted Excel workbook with 4 tabs: Monthly Report, Income vs Budget, Expense vs Budget, and Giveback Reconciliation.',
+    stack: ['Python', 'Pandas', 'openpyxl', 'pdfplumber', 'Jupyter'],
+    link: 'https://github.com/deepssharma/pta_treasurer',
+    linkLabel: 'GitHub',
   },
   {
     tag: 'Statistical Analysis · Signal Extraction',

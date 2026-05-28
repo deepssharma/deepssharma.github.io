@@ -37,29 +37,30 @@ export const ML_PROJECTS = [
   },
   {
     tag: 'Automation · Finance · Python',
-    title: 'PTA Treasurer AI',
+    title: 'PTA Treasurer Report Generator',
     description:
-      'Automated financial reporting pipeline using Python, Playwright, and Docker, from raw bank statements to boardroom-ready Excel reports in seconds, designed to scale into a SaaS product for nonprofits nationwide.',
-    stack: ['Python', 'FastAPI', 'Playwright', 'Docker', 'Jupyter'],
+      'Python tool that automatically generates monthly treasurer reports for a school PTA from three input files (QuickBooks P&L, Chase bank statement PDF, Givebacks CSV). Outputs a formatted Excel workbook with 4 tabs: Monthly Report, Income vs Budget, Expense vs Budget, and Giveback Reconciliation.',
+    stack: ['Python', 'Pandas', 'openpyxl', 'pdfplumber', 'Jupyter'],
     link: 'https://github.com/deepssharma/pta_treasurer',
     linkLabel: 'GitHub',
   },
 ];
+
 export const RESEARCH_PROJECTS = [
   {
     tag: 'Physics · Automation · Monitoring',
     title: 'Solar Activity Monitoring System',
     description:
-      'Automated daily pipeline (cron job) that acquires cosmic muon flux data from detectors across the US, analyzes variation patterns, generates visualizations, and publishes results to the web to predict space weather.',
+      'Automated daily pipeline (cron job) that acquires cosmic muon flux data from detectors across the US, analyzes variation patterns, generates visualizations, and publishes results to the web to predict space weather. Published in JGR Space Physics (2023).',
     stack: ['Python', 'Bash', 'Cron', 'ROOT', 'Data Viz'],
     link: null,
-    linkLabel: 'Live Dashboard',
+    linkLabel: null,
   },
   {
     tag: 'HPC · Physics · Data Engineering',
     title: 'RICH Detector Analysis Pipeline',
     description:
-      'Bash/Perl/C++ pipelines for processing terabytes of R&D data from the Ring Imaging Cherenkov Detector at Jefferson Lab, on HPC clusters via Slurm. Results published in NIM A (2024).',
+      'Bash/Perl/C++ pipelines for processing terabytes of R&D data from the Ring Imaging Cherenkov Detector at Jefferson Lab, on HPC clusters via Slurm. Results published as first author in NIM A (2024).',
     stack: ['C++', 'Bash', 'Slurm', 'ROOT', 'Perl'],
     link: null,
     linkLabel: null,
@@ -68,7 +69,7 @@ export const RESEARCH_PROJECTS = [
     tag: 'Statistical Analysis · Signal Extraction',
     title: 'QGP Signal Extraction at RHIC',
     description:
-      'Novel statistical method to extract bottom-quark cross-section from petabytes of heavy-ion collision data (PHENIX, BNL) — exploiting both mass and pT dimensions for greater sensitivity than prior approaches.',
+      'Novel statistical method to extract bottom-quark cross-section from petabytes of heavy-ion collision data (PHENIX, BNL) — exploiting both mass and pT dimensions for greater sensitivity than prior approaches. Contributed to Nature Physics publication (2019).',
     stack: ['C++', 'ROOT', 'SQL', 'Monte Carlo', 'Condor HPC'],
     link: null,
     linkLabel: null,
