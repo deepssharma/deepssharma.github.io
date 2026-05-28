@@ -55,6 +55,9 @@ export const RESEARCH_PROJECTS = [
     stack: ['Python', 'Bash', 'Cron', 'ROOT', 'Data Viz'],
     link: 'http://phynp6.phy-astr.gsu.edu/~cosmic/index_muonTelescope.html',
     linkLabel: 'Live Dashboard',
+  },
+  {
+    tag: 'HPC · Physics · Data Engineering',
     title: 'RICH Detector Analysis Pipeline',
     description:
       'Bash/Perl/C++ pipelines for processing terabytes of R&D data from the Ring Imaging Cherenkov Detector at Jefferson Lab, on HPC clusters via Slurm. Results published as first author in NIM A (2024).',
