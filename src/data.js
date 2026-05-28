@@ -14,7 +14,7 @@ export const ML_PROJECTS = [
     description:
       'Modeled S&P 500 stock prices and constructed portfolios optimized for maximum return and minimum risk. Pipeline spans LSTM and ARIMA/GARCH price modeling, return calculation, and risk metrics.',
     stack: ['Python', 'LSTM', 'ARIMA', 'GARCH', 'Pandas'],
-    link: 'https://github.com/deepssharma',
+    link: 'https://github.com/deepssharma/Capstone',
     linkLabel: 'GitHub',
   },
   {
@@ -23,7 +23,7 @@ export const ML_PROJECTS = [
     description:
       'Multiclass ML classification to predict pump status — Functional, Non-Functional, or Needs Repair — across thousands of water points. Detailed EDA, feature engineering, XGBoost and stacked ensembles.',
     stack: ['Scikit-learn', 'XGBoost', 'Random Forest', 'Pandas'],
-    link: 'https://github.com/deepssharma',
+    link: 'https://github.com/deepssharma/project_phase3_tanzania',
     linkLabel: 'GitHub',
   },
   {
@@ -32,34 +32,32 @@ export const ML_PROJECTS = [
     description:
       'CNN image classifier to detect pneumonia in chest X-rays. Compared ANN and CNN architectures; applied transfer learning (ResNet, Xception) and LIME for model interpretability.',
     stack: ['Keras', 'CNN', 'ResNet', 'Xception', 'LIME'],
-    link: 'https://github.com/deepssharma',
+    link: 'https://github.com/deepssharma/Phase4',
     linkLabel: 'GitHub',
   },
   {
     tag: 'Automation · Finance · Python',
-    title: 'PTA Treasurer AI',
+    title: 'PTA Treasurer Report Generator',
     description:
-      'Automated financial reporting pipeline using Python, Playwright, and Docker, from raw bank statements to boardroom-ready Excel reports in seconds, designed to scale into a SaaS product for nonprofits nationwide.',
-    stack: ['Python', 'FastAPI', 'Playwright', 'Docker', 'Jupyter'],
+      'Python tool that automatically generates monthly treasurer reports for a school PTA from three input files (QuickBooks P&L, Chase bank statement PDF, Givebacks CSV). Outputs a formatted Excel workbook with 4 tabs: Monthly Report, Income vs Budget, Expense vs Budget, and Giveback Reconciliation.',
+    stack: ['Python', 'Pandas', 'openpyxl', 'pdfplumber', 'Jupyter'],
     link: 'https://github.com/deepssharma/pta_treasurer',
     linkLabel: 'GitHub',
   },
 ];
+
 export const RESEARCH_PROJECTS = [
   {
     tag: 'Physics · Automation · Monitoring',
     title: 'Solar Activity Monitoring System',
     description:
-      'Automated daily pipeline (cron job) that acquires cosmic muon flux data from detectors across the US, analyzes variation patterns, generates visualizations, and publishes results to the web to predict space weather.',
+      'Automated daily pipeline (cron job) that acquires cosmic muon flux data from detectors across the US, analyzes variation patterns, generates visualizations, and publishes results to the web to predict space weather. Published in JGR Space Physics (2023).',
     stack: ['Python', 'Bash', 'Cron', 'ROOT', 'Data Viz'],
-    link: null,
+    link: 'http://phynp6.phy-astr.gsu.edu/~cosmic/index_muonTelescope.html',
     linkLabel: 'Live Dashboard',
-  },
-  {
-    tag: 'HPC · Physics · Data Engineering',
     title: 'RICH Detector Analysis Pipeline',
     description:
-      'Bash/Perl/C++ pipelines for processing terabytes of R&D data from the Ring Imaging Cherenkov Detector at Jefferson Lab, on HPC clusters via Slurm. Results published in NIM A (2024).',
+      'Bash/Perl/C++ pipelines for processing terabytes of R&D data from the Ring Imaging Cherenkov Detector at Jefferson Lab, on HPC clusters via Slurm. Results published as first author in NIM A (2024).',
     stack: ['C++', 'Bash', 'Slurm', 'ROOT', 'Perl'],
     link: null,
     linkLabel: null,
@@ -68,7 +66,7 @@ export const RESEARCH_PROJECTS = [
     tag: 'Statistical Analysis · Signal Extraction',
     title: 'QGP Signal Extraction at RHIC',
     description:
-      'Novel statistical method to extract bottom-quark cross-section from petabytes of heavy-ion collision data (PHENIX, BNL) — exploiting both mass and pT dimensions for greater sensitivity than prior approaches.',
+      'Novel statistical method to extract bottom-quark cross-section from petabytes of heavy-ion collision data (PHENIX, BNL) — exploiting both mass and pT dimensions for greater sensitivity than prior approaches. Contributed to Nature Physics publication (2019).',
     stack: ['C++', 'ROOT', 'SQL', 'Monte Carlo', 'Condor HPC'],
     link: null,
     linkLabel: null,
