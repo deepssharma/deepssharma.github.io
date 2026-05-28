@@ -1,0 +1,78 @@
+# Hi, I'm Deepali Sharma, Ph.D. 👋
+
+**Data Scientist · Machine Learning Engineer · Experimental Physicist**
+
+I'm a physicist-turned-data-scientist with 12+ years of experience extracting signal from noise — literally. From searching for dark photons at particle colliders to building ML pipelines for healthcare and finance, I bring the rigor of experimental physics to every data problem.
+
+🌐 **Portfolio:** [deepssharma.github.io](https://deepssharma.github.io)
+
+---
+
+## 🔭 Background
+
+My research career spans some of the largest physics experiments in the world:
+
+- **Georgia State University** — Research Fellow studying detector performance for the future Electron-Ion Collider at BNL; built automated space weather monitoring pipelines
+- **Stony Brook University / Brookhaven National Lab** — Senior Postdoc on the PHENIX experiment at RHIC; led analyses on quark-gluon plasma, dark photon searches, and heavy flavor production across petabytes of collision data
+- **Weizmann Institute of Science** — Ph.D. in Experimental Nuclear Physics; designed and commissioned the Hadron Blind Detector, the first large-scale photosensitive GEM detector in a major collider experiment
+
+---
+
+## 🤖 ML & Python Projects
+
+| Project | Description | Stack |
+|--------|-------------|-------|
+| [Stock Price & Portfolio Prediction](https://github.com/deepssharma) | LSTM & ARIMA/GARCH models for S&P 500 stocks; portfolio optimization for max return / min risk | Python, LSTM, ARIMA, GARCH |
+| [Tanzanian Water Pump Classifier](https://github.com/deepssharma) | Multiclass classification (Functional / Non-Functional / Needs Repair) across thousands of water points | Scikit-learn, XGBoost, Random Forest |
+| [Pneumonia Detection from X-rays](https://github.com/deepssharma) | CNN image classifier with transfer learning (ResNet, Xception) and LIME interpretability | Keras, CNN, ResNet, LIME |
+| [PTA Treasurer AI](https://github.com/deepssharma/pta_treasurer) | Automated financial reporting pipeline using Python, Playwright, and Docker, from raw bank statements to boardroom-ready Excel reports in seconds, designed to scale into a SaaS product for nonprofits nationwide. | Python, FastAI Playwright, Docker, Jupyter |
+
+---
+
+## 📄 Selected Publications
+
+- **D. Sharma et al.** — *Performance of modular ring imaging Cherenkov detector for particle identification* · NIM A (2024) — [DOI](https://doi.org/10.1016/j.nima.2023.169080)
+- **A. Mubashir et al.** — *Muon Flux Variations and Correlation with Space Weather Activity* · JGR Space Physics (2023) — [DOI](https://doi.org/10.1029/2023JA031583)
+- **C. Aidala et al. [PHENIX]** — *Creation of quark-gluon plasma droplets with three distinct geometries* · **Nature Physics** (2019) — [DOI](https://doi.org/10.1038/s41567-018-0360-0)
+- **A. Adare et al. [PHENIX]** — *Dielectron production in Au+Au collisions at √s = 200 GeV* · PRC (2016) — [DOI](https://doi.org/10.1103/PhysRevC.93.014904)
+- **A. Adare et al. [PHENIX]** — *Search for dark photons from neutral meson decays* · PRC (2015) — [DOI](https://doi.org/10.1103/PhysRevC.91.031901)
+- **W. Anderson et al.** — *Design, Construction & Performance of the Hadron Blind Detector* · NIM A (2011) — [DOI](https://doi.org/10.1016/j.nima.2011.05.007)
+
+> 159+ total publications (PHENIX Collaboration) · Full list on [Google Scholar](https://scholar.google.com/citations?user=IHTt5T0AAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0001-9872-5250)
+
+---
+
+## 🛠 Tech Stack
+
+```
+ML / Data      Scikit-learn · Keras · TensorFlow · XGBoost · Pandas · NumPy
+Deep Learning  CNN · LSTM · ResNet · Transfer Learning · Data Augmentation
+Languages      Python · C++ · SQL · Bash · Perl · Fortran
+HPC & Data     Slurm · Condor · ROOT · PostgreSQL · Flask · Jekyll
+Physics        PYTHIA · MC@NLO · POWHEG · Monte Carlo · LaTeX
+```
+
+---
+
+## 🏆 Recognition
+
+- 🔬 Highlighted as **Young PHENIXian** (2013) — Brookhaven National Laboratory
+- 📰 Featured in the **BNL Newsletter** and **Innovations Report**
+- 🎓 **National Eligibility Test** qualifier in Physics — University Grants Commission, India
+- 🏅 **Junior Research Fellow** — Dept. of Science & Technology, Government of India
+- 🥉 3rd in order of merit, M.Sc. Physics — University of Jammu
+
+---
+
+## 📬 Get in Touch
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0a0a0f?style=flat&logo=githubpages&logoColor=white)](https://deepssharma.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepali-sharma-a83a126/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=IHTt5T0AAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-9872-5250)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@deeps.sharma)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:deeps.sharma@gmail.com)
+
+---
+
+*"The universe is under no obligation to make sense to you." — Neil deGrasse Tyson*
