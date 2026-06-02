@@ -53,7 +53,7 @@ export const ML_PROJECTS = [
     link: null,
     linkLabel: null,
     comingSoon: true,
-    image: './physics_rag_architecture.svg',
+    image: './physics_rag_diagram.png',
   },
 ];
 
