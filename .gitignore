@@ -24,6 +24,8 @@ dist-ssr
 *.sw?
 *#
 
+deploy_cmds.sh
+
 portfoli*
 *.js
 README*

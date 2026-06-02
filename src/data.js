@@ -44,6 +44,17 @@ export const ML_PROJECTS = [
     link: 'https://github.com/deepssharma/pta_treasurer',
     linkLabel: 'GitHub',
   },
+  {
+    tag: 'RAG · GenAI · Physics',
+    title: 'PhysRAG',
+    description:
+      'A retrieval-augmented generation system built over 159+ PHENIX collaboration papers. Ask natural language questions across a decade of particle physics research — powered by LangChain, FAISS, and Gemini.',
+    stack: ['LangChain', 'FAISS', 'Gemini', 'arXiv API', 'HuggingFace', 'Streamlit'],
+    link: null,
+    linkLabel: null,
+    comingSoon: true,
+    image: './physics_rag_architecture.svg',
+  },
 ];
 
 export const RESEARCH_PROJECTS = [

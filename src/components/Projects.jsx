@@ -1,7 +1,12 @@
 import { ML_PROJECTS, RESEARCH_PROJECTS } from '../data';
 
 const ProjectCard = ({ project, index, hoverColor = 'group-hover:text-plasma-400' }) => (
-  <div className="bg-ink-950 hover:bg-ink-900 transition-colors p-10 flex flex-col gap-6 group">
+  <div className="bg-ink-950 hover:bg-ink-900 transition-colors p-10 flex flex-col gap-6 group relative">
+    {project.comingSoon && (
+      <span className="absolute top-4 right-4 font-mono text-xs tracking-widest uppercase bg-plasma-600 text-white px-2.5 py-1">
+        Coming Soon
+      </span>
+    )}
     <div>
       <p className="font-mono text-xs tracking-widest uppercase text-mist-600 mb-3">
         {String(index + 1).padStart(2, '0')} — {project.tag}
@@ -13,6 +18,13 @@ const ProjectCard = ({ project, index, hoverColor = 'group-hover:text-plasma-400
     <p className="text-mist-400 text-sm leading-relaxed flex-1">
       {project.description}
     </p>
+    {project.image && (
+      <img
+        src={project.image}
+        alt={`${project.title} architecture diagram`}
+        className="w-full border border-ink-600 opacity-80 group-hover:opacity-100 transition-opacity"
+      />
+    )}
     <div className="flex flex-wrap gap-2">
       {project.stack.map(tech => (
         <span key={tech} className="font-mono text-xs bg-ink-800 border border-ink-600 text-mist-400 px-2.5 py-1">
