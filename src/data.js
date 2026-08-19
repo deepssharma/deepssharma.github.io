@@ -39,7 +39,7 @@ export const ML_PROJECTS = [
     tag: 'Automation · Finance · Python',
     title: 'PTA Treasurer AI',
     description:
-      'Cross-platform desktop app that generates monthly PTA/school treasurer reports — budget vs. actuals, bank reconciliation, YTD summary — from QuickBooks, Chase, and Givebacks exports, with an optional local-LLM assistant for report Q&A that runs entirely on-device.',
+      'Cross-platform desktop app that turns a folder of QuickBooks, Chase, and Givebacks exports into a full treasurer Excel workbook — income vs. budget, bank reconciliation, YTD summary — built for PTA treasurers with no Python or spreadsheet-formula knowledge. Includes an optional local-LLM assistant, via Ollama, for report Q&A entirely on-device.',
     stack: ['Python', 'PySide6', 'Pandas', 'Ollama', 'PyInstaller'],
     link: 'https://github.com/deepssharma/pta_web_app',
     linkLabel: 'GitHub',
