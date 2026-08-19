@@ -39,9 +39,9 @@ export const ML_PROJECTS = [
     tag: 'Automation · Finance · Python',
     title: 'PTA Treasurer AI',
     description:
-      'Automated financial reporting pipeline using Python, Playwright, and Docker, from raw bank statements to boardroom-ready Excel reports in seconds, designed to scale into a SaaS product for nonprofits nationwide.',
-    stack: ['Python', 'FastAI', 'Playwright', 'Docker', 'Jupyter'],
-    link: 'https://github.com/deepssharma/pta_treasurer',
+      'Cross-platform desktop app that generates monthly PTA/school treasurer reports — budget vs. actuals, bank reconciliation, YTD summary — from QuickBooks, Chase, and Givebacks exports, with an optional local-LLM assistant for report Q&A that runs entirely on-device.',
+    stack: ['Python', 'PySide6', 'Pandas', 'Ollama', 'PyInstaller'],
+    link: 'https://github.com/deepssharma/pta_web_app',
     linkLabel: 'GitHub',
   },
   {
